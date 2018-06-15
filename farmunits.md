@@ -99,8 +99,8 @@ allocate units of farm to a user.
 | Param Name | Param Type | Data Type | Description | Required? |
 |-----|-----|-----|-----|-----|
 | userid | body | string | User id | Yes |
-| userid | body | string | Farm id | Yes |
-| userid | body | int | Units | Yes |
+| farmid | body | string | Farm id | Yes |
+| units | body | int | Units | Yes |
 
 
 | Code | Type | Model | Message |
